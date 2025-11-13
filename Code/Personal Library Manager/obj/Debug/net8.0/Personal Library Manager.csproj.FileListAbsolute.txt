@@ -1,0 +1,15 @@
+/workspaces/C-Practice/Code/Personal Library Manager/obj/Debug/net8.0/Personal Library Manager.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/C-Practice/Code/Personal Library Manager/obj/Debug/net8.0/Personal Library Manager.AssemblyInfoInputs.cache
+/workspaces/C-Practice/Code/Personal Library Manager/obj/Debug/net8.0/Personal Library Manager.AssemblyInfo.cs
+/workspaces/C-Practice/Code/Personal Library Manager/obj/Debug/net8.0/Personal Library Manager.csproj.CoreCompileInputs.cache
+/workspaces/C-Practice/Code/Personal Library Manager/obj/Debug/net8.0/Personal Library Manager.sourcelink.json
+/workspaces/C-Practice/Code/Personal Library Manager/bin/Debug/net8.0/Personal Library Manager
+/workspaces/C-Practice/Code/Personal Library Manager/bin/Debug/net8.0/Personal Library Manager.deps.json
+/workspaces/C-Practice/Code/Personal Library Manager/bin/Debug/net8.0/Personal Library Manager.runtimeconfig.json
+/workspaces/C-Practice/Code/Personal Library Manager/bin/Debug/net8.0/Personal Library Manager.dll
+/workspaces/C-Practice/Code/Personal Library Manager/bin/Debug/net8.0/Personal Library Manager.pdb
+/workspaces/C-Practice/Code/Personal Library Manager/obj/Debug/net8.0/Personal Library Manager.dll
+/workspaces/C-Practice/Code/Personal Library Manager/obj/Debug/net8.0/refint/Personal Library Manager.dll
+/workspaces/C-Practice/Code/Personal Library Manager/obj/Debug/net8.0/Personal Library Manager.pdb
+/workspaces/C-Practice/Code/Personal Library Manager/obj/Debug/net8.0/Personal Library Manager.genruntimeconfig.cache
+/workspaces/C-Practice/Code/Personal Library Manager/obj/Debug/net8.0/ref/Personal Library Manager.dll
