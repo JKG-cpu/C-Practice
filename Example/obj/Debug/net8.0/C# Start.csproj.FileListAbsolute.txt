@@ -1,0 +1,30 @@
+/workspaces/C-Practice/C# Start/bin/Debug/net8.0/C# Start
+/workspaces/C-Practice/C# Start/bin/Debug/net8.0/C# Start.deps.json
+/workspaces/C-Practice/C# Start/bin/Debug/net8.0/C# Start.runtimeconfig.json
+/workspaces/C-Practice/C# Start/bin/Debug/net8.0/C# Start.dll
+/workspaces/C-Practice/C# Start/bin/Debug/net8.0/C# Start.pdb
+/workspaces/C-Practice/C# Start/obj/Debug/net8.0/C# Start.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/C-Practice/C# Start/obj/Debug/net8.0/C# Start.AssemblyInfoInputs.cache
+/workspaces/C-Practice/C# Start/obj/Debug/net8.0/C# Start.AssemblyInfo.cs
+/workspaces/C-Practice/C# Start/obj/Debug/net8.0/C# Start.csproj.CoreCompileInputs.cache
+/workspaces/C-Practice/C# Start/obj/Debug/net8.0/C# Start.sourcelink.json
+/workspaces/C-Practice/C# Start/obj/Debug/net8.0/C# Start.dll
+/workspaces/C-Practice/C# Start/obj/Debug/net8.0/refint/C# Start.dll
+/workspaces/C-Practice/C# Start/obj/Debug/net8.0/C# Start.pdb
+/workspaces/C-Practice/C# Start/obj/Debug/net8.0/C# Start.genruntimeconfig.cache
+/workspaces/C-Practice/C# Start/obj/Debug/net8.0/ref/C# Start.dll
+/workspaces/C-Practice/Example/bin/Debug/net8.0/C# Start
+/workspaces/C-Practice/Example/bin/Debug/net8.0/C# Start.deps.json
+/workspaces/C-Practice/Example/bin/Debug/net8.0/C# Start.runtimeconfig.json
+/workspaces/C-Practice/Example/bin/Debug/net8.0/C# Start.dll
+/workspaces/C-Practice/Example/bin/Debug/net8.0/C# Start.pdb
+/workspaces/C-Practice/Example/obj/Debug/net8.0/C# Start.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/C-Practice/Example/obj/Debug/net8.0/C# Start.AssemblyInfoInputs.cache
+/workspaces/C-Practice/Example/obj/Debug/net8.0/C# Start.AssemblyInfo.cs
+/workspaces/C-Practice/Example/obj/Debug/net8.0/C# Start.csproj.CoreCompileInputs.cache
+/workspaces/C-Practice/Example/obj/Debug/net8.0/C# Start.sourcelink.json
+/workspaces/C-Practice/Example/obj/Debug/net8.0/C# Start.dll
+/workspaces/C-Practice/Example/obj/Debug/net8.0/refint/C# Start.dll
+/workspaces/C-Practice/Example/obj/Debug/net8.0/C# Start.pdb
+/workspaces/C-Practice/Example/obj/Debug/net8.0/C# Start.genruntimeconfig.cache
+/workspaces/C-Practice/Example/obj/Debug/net8.0/ref/C# Start.dll
