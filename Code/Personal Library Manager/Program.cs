@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Runtime.CompilerServices;
 
 public static class UIHelper
@@ -128,7 +129,7 @@ public class Library
         }
 
         if (string.IsNullOrEmpty(Title))
-            return (false, null, "You must provide a title.");
+            return (false, null, "No Title");
 
         List<Book> matches = new();
 
@@ -160,13 +161,13 @@ public class Library
         // Handle results
         if (!Success || matches == null)
         {
-            return (false, info, matches);
+            return (false, "No Books", matches);
         }
         else
         {
             if (matches.Count > 1)
             {
-                return (false, "To Many Books", matches);
+                return (false, "OverFlow", matches);
             }
             books.Remove(matches[0]);
             ResetBookIDs();
@@ -267,6 +268,7 @@ class MyApp
     // Manage Books
     private static void ManageBooks()
     {
+        Console.Clear();
         bool running = true;
         List<string> options =
         [
@@ -285,13 +287,13 @@ class MyApp
                 if (userInput.ToLower().StartsWith("e"))
                 {
                     running = false;
-                    Console.Clear();
                     continue;
                 }
                 else if (userInput.ToLower().StartsWith("a"))
                 {
                     (string Title, string Pages, string Author) = GetDetails();
                     library.AddBook(Title, Pages, Author);
+                    continue;
                 }
                 else if (userInput.ToLower().StartsWith("r"))
                 {
@@ -398,11 +400,12 @@ class MyApp
         string Title = "";
         string Pages = "";
         string Author = "";
-        bool running = true;
+        bool running;
         bool brunning = true;
 
         while (brunning)
         {
+            running = true;
             // Get Title
             while (running)
             {
@@ -487,15 +490,76 @@ class MyApp
         return (Title, Pages, Author);
     }
 
-    private static (string Title, string Pages, string Author) RemoveBook()
+    private static (string? Title, string? Pages, string? Author, int? id) RemoveBook()
     {
-        string Title = "";
-        string Pages = "";
-        string Author = "";
+        string? Title = null;
+        string? Pages = null;
+        string? Author = null;
+        int? ID = null;
+        bool running = true;
 
+        while (running)
+        {
+            // Ask to enter book details or just browse
+            Console.Write("Would you like to browse your books or just enter in details? (b/d) > ");
+            string? browseInput = Console.ReadLine();
 
+            if (string.IsNullOrEmpty(browseInput))
+            {
+                Console.WriteLine("You must type something...");
+                Console.Write("Press Enter to continue > ");
+                Console.ReadKey(true);
+                Console.Clear();
+                continue;
+            }
 
-        return (Title, Pages, Author);
+            if (browseInput.ToLower().StartsWith("b"))
+            {
+
+            }
+            else if (browseInput.ToLower().StartsWith("d"))
+            {
+                (string title, string pages, string author) = GetDetails();
+                (bool success, string? info, List<Book>? matches) = library.RemoveBook(title, pages, author);
+                if (success)
+                {
+                    Console.WriteLine($"Removed Book {title}.");
+                } else
+                {
+                    if (info != null)
+                    {
+                        if (info == "OverFlow" && matches != null)
+                        {
+                            UIHelper.DisplayBookPage(0, matches);
+                            Console.Write("Which book do you want to delete? Please Enter ID or E to exit> ");
+                            string? multiInput = Console.ReadLine();
+                            if (!string.IsNullOrEmpty(multiInput))
+                            {
+                                library.FindBooks(null, null, null, Convert.ToInt32(multiInput));
+                            } else
+                            {
+                                Console.WriteLine("Not a valid book..");
+                            }
+
+                        } else if (info == "No Books")
+                        {
+                            Console.WriteLine("No books with that info...");
+                        }
+                    }
+                }
+            }
+            else
+            {
+                Console.WriteLine("That is not a valid option...type b for browse or d for details...");
+            }
+
+            Console.Write("Press Enter to continue >  ");
+            Console.ReadKey(true);
+            Console.Clear();
+
+        }
+
+        return (Title, Pages, Author, ID);
     }
 
 }
