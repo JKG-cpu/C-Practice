@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Personal Library Manager")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0b7b56b1bd0e456aef23b5952cb7409b6fcf9cd2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4664bf4aaa3a4b8e4c73fb5ee9cbb0529b86d8b6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Personal Library Manager")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Personal Library Manager")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
