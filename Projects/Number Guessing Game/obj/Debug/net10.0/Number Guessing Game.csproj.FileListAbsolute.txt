@@ -1,0 +1,15 @@
+/workspaces/C-Practice/Projects/Number Guessing Game/obj/Debug/net10.0/Number Guessing Game.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/C-Practice/Projects/Number Guessing Game/obj/Debug/net10.0/Number Guessing Game.AssemblyInfoInputs.cache
+/workspaces/C-Practice/Projects/Number Guessing Game/obj/Debug/net10.0/Number Guessing Game.AssemblyInfo.cs
+/workspaces/C-Practice/Projects/Number Guessing Game/obj/Debug/net10.0/Number Guessing Game.csproj.CoreCompileInputs.cache
+/workspaces/C-Practice/Projects/Number Guessing Game/obj/Debug/net10.0/Number Guessing Game.sourcelink.json
+/workspaces/C-Practice/Projects/Number Guessing Game/bin/Debug/net10.0/Number Guessing Game
+/workspaces/C-Practice/Projects/Number Guessing Game/bin/Debug/net10.0/Number Guessing Game.deps.json
+/workspaces/C-Practice/Projects/Number Guessing Game/bin/Debug/net10.0/Number Guessing Game.runtimeconfig.json
+/workspaces/C-Practice/Projects/Number Guessing Game/bin/Debug/net10.0/Number Guessing Game.dll
+/workspaces/C-Practice/Projects/Number Guessing Game/bin/Debug/net10.0/Number Guessing Game.pdb
+/workspaces/C-Practice/Projects/Number Guessing Game/obj/Debug/net10.0/Number Guessing Game.dll
+/workspaces/C-Practice/Projects/Number Guessing Game/obj/Debug/net10.0/refint/Number Guessing Game.dll
+/workspaces/C-Practice/Projects/Number Guessing Game/obj/Debug/net10.0/Number Guessing Game.pdb
+/workspaces/C-Practice/Projects/Number Guessing Game/obj/Debug/net10.0/Number Guessing Game.genruntimeconfig.cache
+/workspaces/C-Practice/Projects/Number Guessing Game/obj/Debug/net10.0/ref/Number Guessing Game.dll
