@@ -1,0 +1,15 @@
+/workspaces/C-Practice/Projects/To-Do List/obj/Debug/net10.0/To-Do List.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/C-Practice/Projects/To-Do List/obj/Debug/net10.0/To-Do List.AssemblyInfoInputs.cache
+/workspaces/C-Practice/Projects/To-Do List/obj/Debug/net10.0/To-Do List.AssemblyInfo.cs
+/workspaces/C-Practice/Projects/To-Do List/obj/Debug/net10.0/To-Do List.csproj.CoreCompileInputs.cache
+/workspaces/C-Practice/Projects/To-Do List/obj/Debug/net10.0/To-Do List.sourcelink.json
+/workspaces/C-Practice/Projects/To-Do List/bin/Debug/net10.0/To-Do List
+/workspaces/C-Practice/Projects/To-Do List/bin/Debug/net10.0/To-Do List.deps.json
+/workspaces/C-Practice/Projects/To-Do List/bin/Debug/net10.0/To-Do List.runtimeconfig.json
+/workspaces/C-Practice/Projects/To-Do List/bin/Debug/net10.0/To-Do List.dll
+/workspaces/C-Practice/Projects/To-Do List/bin/Debug/net10.0/To-Do List.pdb
+/workspaces/C-Practice/Projects/To-Do List/obj/Debug/net10.0/To-Do List.dll
+/workspaces/C-Practice/Projects/To-Do List/obj/Debug/net10.0/refint/To-Do List.dll
+/workspaces/C-Practice/Projects/To-Do List/obj/Debug/net10.0/To-Do List.pdb
+/workspaces/C-Practice/Projects/To-Do List/obj/Debug/net10.0/To-Do List.genruntimeconfig.cache
+/workspaces/C-Practice/Projects/To-Do List/obj/Debug/net10.0/ref/To-Do List.dll
