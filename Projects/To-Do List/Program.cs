@@ -2,16 +2,26 @@
 {
     public void WrongAnswer()
     {
-        Console.WriteLine("That is not a valid option.");
+        Console.WriteLine("\nThat is not a valid option.");
         Console.Write("Press any key to continue. ");
-        Console.ReadKey(false);
+        Console.ReadKey(true);
+    }
+
+    public void DisplayOptions(List<string> options)
+    {
+        Console.WriteLine("\n--- TODO MENU ---");
+        for (int i = 0; i < options.Count; i++)
+        {
+            Console.WriteLine($"{i + 1}. {options[i]}");
+        }
+        Console.Write("Select an option: ");
     }
 }
 
 public class TaskItem
 {
-    public string? Name { get; set; }
-    public string? Info { get; set; }
+    public string Name { get; set; } = string.Empty;
+    public string Info { get; set; } = string.Empty;
 }
 
 public static class ToDoListManager
@@ -20,12 +30,19 @@ public static class ToDoListManager
 
     public static void DisplayTasks()
     {
-        if (taskList.Count == 0) Console.WriteLine("No tasks made.");
-        
-        foreach (var task in taskList)
+        Console.WriteLine("--- TASKS ---");
+        if (taskList.Count == 0) 
         {
-            Console.WriteLine($"Task: {task.Name} | Info: {task.Info}");
+            Console.WriteLine("No tasks made.");
         }
+        else 
+        {
+            foreach (var task in taskList)
+            {
+                Console.WriteLine($"Task: {task.Name} | Info: {task.Info}");
+            }
+        }
+        Console.WriteLine("------------------");
     }
 
     public static void AddTask(string taskname, string info)
@@ -36,42 +53,22 @@ public static class ToDoListManager
 
 public class Program
 {
-    private UIHelper uIHelper = new();
+    private static UIHelper uIHelper = new();
 
     public static void Main()
     {
         bool running = true;
-
-        while (running)
-        {
-            int taskAdded = AddTask("Test Task 1", "This is a test task");
-            
-            if (taskAdded == 1)
-            {
-                Console.WriteLine("The task was added.");
-            } else
-            {
-                Console.WriteLine("Failed to add task.");
-            }
-            
-            ToDoListManager.DisplayTasks();
-            running = false;
-        }
+        List<string> options = new() { "Add Task", "View Tasks", "Quit" };
     }
 
     public static int AddTask(string? taskname, string? info)
     {
-        if (string.IsNullOrEmpty(taskname))
+        if (string.IsNullOrWhiteSpace(taskname))
         {
             return 0;
         }
 
-        if (string.IsNullOrEmpty(info))
-        {
-            info = "";
-        }
-
-        ToDoListManager.AddTask(taskname, info);
+        ToDoListManager.AddTask(taskname, info ?? "");
         return 1;
     }
 }
