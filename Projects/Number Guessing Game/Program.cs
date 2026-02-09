@@ -4,7 +4,7 @@
     {
         Console.WriteLine("That is not a valid option.");
         Console.Write("Press any key to continue. ");
-        Console.ReadKey();
+        Console.ReadKey(false);
         Console.Clear();
     }
 }
@@ -55,15 +55,15 @@ public class Program
 
     private static int CheckGuess(int userGuess, int number)
     {
-        // 0 = Correct, 1 = Greater, -1 = Smaller
+        // 0 = Correct, 1 = Higher, -1 = Lower
         int placement = 0;
 
         if (userGuess > number)
         {
-            placement = 1;
+            placement = -1;
         } else if (userGuess < number)
         {
-            placement = -1;
+            placement = 1;
         }
 
         return placement;
@@ -78,7 +78,49 @@ public class Program
 
         while (!guessed)
         {
+            Console.Write("Enter a number to guess (1 - 100) > ");
 
+            string? UserGuess = Console.ReadLine();
+
+            if (string.IsNullOrEmpty(UserGuess))
+            {
+                uihelper.ClearConsole();
+                continue;
+            }
+
+            try
+            {
+                int UserInput = int.Parse(UserGuess);
+
+                int difference = CheckGuess(UserInput, number);
+
+                if (difference == 0)
+                {
+                    Console.WriteLine($"You have guessed correctly! The number was {number}");
+                    Console.Write("Press any key. ");
+                    Console.ReadKey(false);
+                    Console.Clear();
+                    guessed = true;
+                } else if (difference == 1)
+                {
+                    Console.WriteLine("Guess Higher!");
+                    Console.Write("Press any key. ");
+                    Console.ReadKey(false);
+                    Console.Clear();
+                } else if (difference == -1)
+                {
+                    Console.WriteLine("Guess Lower!");
+                    Console.Write("Press any key. ");
+                    Console.ReadKey(false);
+                    Console.Clear();
+                }
+
+            }
+            catch
+            {
+                uihelper.ClearConsole();
+                continue;
+            }
         }
     }
 }

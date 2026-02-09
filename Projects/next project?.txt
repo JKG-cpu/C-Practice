@@ -1,0 +1,69 @@
+List of projects to make
+
+BEGINNER
+
+1. Number Guessing Game
+   Console app where the computer picks a number and the user guesses it.
+
+2. To-Do List (Console)
+   Add, remove, and view tasks stored in memory.
+
+3. Simple Calculator
+   Supports +, -, *, / using user input.
+
+4. Dice Roller
+   Simulates rolling one or more dice with random results.
+
+5. Word Counter
+   Counts words and characters from user-entered text.
+
+INTERMEDIATE
+
+6. To-Do List with File Saving
+   Saves tasks to a text or JSON file and loads them on startup.
+
+7. Password Generator
+   Generates secure passwords with length and character options.
+
+8. Contact Manager
+   Add, edit, delete, and search contacts stored in a file.
+
+9. Quiz Game
+   Multiple-choice questions, score tracking, and replay option.
+
+10. Simple Banking System
+    Create accounts, deposit, withdraw, and show balances.
+
+INTERMEDIATE → ADVANCED
+
+11. URL Shortener (Console or Minimal API)
+    Maps short codes to full URLs using in-memory storage.
+
+12. Weather App
+    Fetches weather data from a public API and displays it.
+
+13. Expense Tracker
+    Tracks spending by category and date, saved to a file.
+
+14. Chat-Style Console App
+    Simulates a chat using commands and message history.
+
+ADVANCED (STILL REASONABLE)
+
+15. REST API with ASP.NET Core
+    CRUD API for items like notes or tasks.
+
+16. Authentication System
+    Simple login/register system with hashed passwords.
+
+17. Mini Game (OOP Focused)
+    Text-based RPG or battle simulator using classes and inheritance.
+
+18. File Backup Tool
+    Copies selected folders to a backup location automatically.
+
+19. Command-Line Tool
+    Custom CLI with commands and flags (like git-style commands).
+
+20. Full-Stack Mini App
+    ASP.NET Core backend + simple frontend (Razor or minimal HTML)
