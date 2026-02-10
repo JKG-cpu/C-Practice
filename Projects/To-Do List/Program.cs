@@ -1,10 +1,11 @@
 ﻿public class UIHelper
 {
-    public void WrongAnswer()
+    public void WrongAnswer(string message = "\nThat is not a valid option.")
     {
-        Console.WriteLine("\nThat is not a valid option.");
+        Console.WriteLine(message);
         Console.Write("Press any key to continue. ");
         Console.ReadKey(true);
+        Console.Clear();
     }
 
     public void DisplayOptions(List<string> options)
@@ -80,16 +81,19 @@ public class Program
             switch (userInput)
             {
                 case "1":
+                    Console.Clear();
                     GetTaskDetails();
                     break;
 
                 case "2":
+                    Console.Clear();
                     ToDoListManager.DisplayTasks();
                     Console.Write("\nPress any key to continue. ");
                     Console.ReadKey(false);
                     break;
 
                 case "3":
+                    Console.Clear();
                     break;
 
                 case "4":
@@ -119,12 +123,24 @@ public class Program
         {
             if (!taskName)
             {
-                continue;
+                Console.Write("Enter in a taskname > ");
+
+                string? UserInput = Console.ReadLine();
+
+                if (string.IsNullOrEmpty(UserInput) || string.IsNullOrWhiteSpace(UserInput))
+                {
+                    uIHelper.WrongAnswer("Please type something in.");
+                    continue;
+                }
+
+                TaskName = UserInput;
+                taskName = true;
             }
 
             if (!taskInfo)
             {
-                continue;
+                Console.Write("Enter in task details > ");
+                TaskInfo = Console.ReadLine();
             }
 
             AddTask(TaskName, TaskInfo);
