@@ -1,69 +1,29 @@
-List of projects to make
+--- COMPLETED ---
+[X] 1. Number Guessing Game (C# - Logic & Input handling)
+[X] 2. To-Do List (C# - Memory & Lists)
+[X] 6. To-Do List + File Saving (C# - JSON Serialization & persistence)
 
-BEGINNER
+--- INTERMEDIATE (THE BUILDER PHASE) ---
+[ ] 7. Password Generator (Python/C# - Randomness & String manipulation)
+[ ] 8. Contact Manager (C# - CRUD operations with JSON storage)
+[ ] 9. Quiz Game (C# - State management & score tracking)
+[ ] 10. Simple Banking System (C# - Logic verification & transaction history)
 
-1. Number Guessing Game
-   Console app where the computer picks a number and the user guesses it.
+--- INTERMEDIATE → ADVANCED (THE SECURITY INJECTION) ---
+[ ] 11. URL Shortener (C# Minimal API - Mapping and Data structures)
+[ ] 12. Weather App (C# - HttpClient & API Key management)
+[ ] 13. Expense Tracker (C# - Data sorting & Date-time handling)
+[ ] 14. Network Chat App (Python/C# - Sockets & basic networking)
 
-2. To-Do List (Console)
-   Add, remove, and view tasks stored in memory.
+--- ADVANCED (THE FOUNDER/PRO PHASE) ---
+[ ] 15. REST API with ASP.NET Core (Building scalable backends)
+[ ] 16. Authentication System (C# - Password Hashing & Salting)
+[ ] 17. Mini Game / Battle Sim (C# - Advanced OOP & Inheritance)
+[ ] 18. Linux File Backup Tool (Python - OS interactions & automation)
+[ ] 19. Custom CLI Tool (Building professional-grade developer tools)
+[ ] 20. Full-Stack Mini App (Connecting a Frontend to a Secure Backend)
 
-3. Simple Calculator
-   Supports +, -, *, / using user input.
-
-4. Dice Roller
-   Simulates rolling one or more dice with random results.
-
-5. Word Counter
-   Counts words and characters from user-entered text.
-
-INTERMEDIATE
-
-6. To-Do List with File Saving
-   Saves tasks to a text or JSON file and loads them on startup.
-
-7. Password Generator
-   Generates secure passwords with length and character options.
-
-8. Contact Manager
-   Add, edit, delete, and search contacts stored in a file.
-
-9. Quiz Game
-   Multiple-choice questions, score tracking, and replay option.
-
-10. Simple Banking System
-    Create accounts, deposit, withdraw, and show balances.
-
-INTERMEDIATE → ADVANCED
-
-11. URL Shortener (Console or Minimal API)
-    Maps short codes to full URLs using in-memory storage.
-
-12. Weather App
-    Fetches weather data from a public API and displays it.
-
-13. Expense Tracker
-    Tracks spending by category and date, saved to a file.
-
-14. Chat-Style Console App
-    Simulates a chat using commands and message history.
-
-ADVANCED (STILL REASONABLE)
-
-15. REST API with ASP.NET Core
-    CRUD API for items like notes or tasks.
-
-16. Authentication System
-    Simple login/register system with hashed passwords.
-
-17. Mini Game (OOP Focused)
-    Text-based RPG or battle simulator using classes and inheritance.
-
-18. File Backup Tool
-    Copies selected folders to a backup location automatically.
-
-19. Command-Line Tool
-    Custom CLI with commands and flags (like git-style commands).
-
-20. Full-Stack Mini App
-    ASP.NET Core backend + simple frontend (Razor or minimal HTML)
+--- SECURITY SPECIALIZATION (OPTIONAL) ---
+[ ] 21. LogWatcher (Python - Real-time Linux monitoring & Alerts)
+[ ] 22. Simple Port Scanner (C# - Network reconnaissance)
+[ ] 23. Encrypted Vault (C# - AES Encryption for local files)
