@@ -1,29 +1,29 @@
 --- COMPLETED ---
 [X] 1. Number Guessing Game (C# - Logic & Input handling)
 [X] 2. To-Do List (C# - Memory & Lists)
-[X] 6. To-Do List + File Saving (C# - JSON Serialization & persistence)
+[X] 3. To-Do List + File Saving (C# - JSON Serialization & persistence)
 
 --- INTERMEDIATE (THE BUILDER PHASE) ---
-[ ] 7. Password Generator (Python/C# - Randomness & String manipulation)
-[ ] 8. Contact Manager (C# - CRUD operations with JSON storage)
-[ ] 9. Quiz Game (C# - State management & score tracking)
-[ ] 10. Simple Banking System (C# - Logic verification & transaction history)
+[ ] 4. Password Generator (Python/C# - Randomness & String manipulation)
+[ ] 5. Contact Manager (C# - CRUD operations with JSON storage)
+[ ] 6. Quiz Game (C# - State management & score tracking)
+[ ] 7. Simple Banking System (C# - Logic verification & transaction history)
 
 --- INTERMEDIATE → ADVANCED (THE SECURITY INJECTION) ---
-[ ] 11. URL Shortener (C# Minimal API - Mapping and Data structures)
-[ ] 12. Weather App (C# - HttpClient & API Key management)
-[ ] 13. Expense Tracker (C# - Data sorting & Date-time handling)
-[ ] 14. Network Chat App (Python/C# - Sockets & basic networking)
+[ ] 8. URL Shortener (C# Minimal API - Mapping and Data structures)
+[ ] 9. Weather App (C# - HttpClient & API Key management)
+[ ] 10. Expense Tracker (C# - Data sorting & Date-time handling)
+[ ] 11. Network Chat App (Python/C# - Sockets & basic networking)
 
 --- ADVANCED (THE FOUNDER/PRO PHASE) ---
-[ ] 15. REST API with ASP.NET Core (Building scalable backends)
-[ ] 16. Authentication System (C# - Password Hashing & Salting)
-[ ] 17. Mini Game / Battle Sim (C# - Advanced OOP & Inheritance)
-[ ] 18. Linux File Backup Tool (Python - OS interactions & automation)
-[ ] 19. Custom CLI Tool (Building professional-grade developer tools)
-[ ] 20. Full-Stack Mini App (Connecting a Frontend to a Secure Backend)
+[ ] 12. REST API with ASP.NET Core (Building scalable backends)
+[ ] 13. Authentication System (C# - Password Hashing & Salting)
+[ ] 14. Mini Game / Battle Sim (C# - Advanced OOP & Inheritance)
+[ ] 15. Linux File Backup Tool (Python - OS interactions & automation)
+[ ] 16. Custom CLI Tool (Building professional-grade developer tools)
+[ ] 17. Full-Stack Mini App (Connecting a Frontend to a Secure Backend)
 
 --- SECURITY SPECIALIZATION (OPTIONAL) ---
-[ ] 21. LogWatcher (Python - Real-time Linux monitoring & Alerts)
-[ ] 22. Simple Port Scanner (C# - Network reconnaissance)
-[ ] 23. Encrypted Vault (C# - AES Encryption for local files)
+[ ] 18. LogWatcher (Python - Real-time Linux monitoring & Alerts)
+[ ] 19. Simple Port Scanner (C# - Network reconnaissance)
+[ ] 20. Encrypted Vault (C# - AES Encryption for local files)
