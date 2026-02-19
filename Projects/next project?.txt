@@ -4,7 +4,7 @@
 [X] 3. To-Do List + File Saving (C# - JSON Serialization & persistence)
 
 --- INTERMEDIATE (THE BUILDER PHASE) ---
-[ ] 4. Password Generator (Python/C# - Randomness & String manipulation)
+[-] 4. Password Generator (Python/C# - Randomness & String manipulation)
 [ ] 5. Contact Manager (C# - CRUD operations with JSON storage)
 [ ] 6. Quiz Game (C# - State management & score tracking)
 [ ] 7. Simple Banking System (C# - Logic verification & transaction history)
